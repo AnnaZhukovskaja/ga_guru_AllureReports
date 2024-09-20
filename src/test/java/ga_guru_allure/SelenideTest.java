@@ -20,6 +20,6 @@ public class SelenideTest {
         $("#query-builder-test").submit();
         $(linkText("eroshenkoam/allure-example")).click();
         $("#issues-tab").click();
-        $(withText("#91")).shouldHave(Condition.exist);
+        $(withText("#90")).shouldHave(Condition.exist);
     }
 }
